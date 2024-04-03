@@ -24,7 +24,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("<%s>,<%s>,<%s>,<%s>,<%s>,<%s>", surname, name, middleName, birthDay, numberPhone, gender);
+        return String.format("<%s>,<%s>,<%s>,<%s>,<%s>,<%s>%n", surname, name, middleName, birthDay, numberPhone, gender);
     }
 
 }
